@@ -1,0 +1,15 @@
+<form [formGroup]="userForm">
+        <div class="mb-3">
+            <label for="name" class="form-label">Fullname</label>
+            <input type="text" formControlName="name" class="form-control" id="name" placeholder="John Doe">
+        </div>
+        <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" formControlName="email" class="form-control" id="email" placeholder="john_doe@gmail.com">
+        </div>
+        <div class="mb-3">
+            <label for="zip" class="form-label">Zip Code</label>
+            <input type="number" formControlName="zip" class="form-control" id="zip" placeholder="90231">
+        </div>
+        <button type="button" (click)="addNewUser()" class="btn btn-primary">Add New User</button>
+</form>

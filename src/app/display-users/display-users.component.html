@@ -1,0 +1,18 @@
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">Name</th>
+      <th scope="col">Email</th>
+      <th scope="col">Zip Code</th>
+    </tr>
+  </thead>
+  <tbody>
+    <ng-container *ngFor="let user of users">
+        <tr>
+            <td>{{user.name}}</td>
+            <td>{{user.email}}</td>
+            <td>{{user.zip}}</td>
+        </tr>
+    </ng-container>
+  </tbody>
+</table>

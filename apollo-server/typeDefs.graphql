@@ -1,0 +1,30 @@
+
+    type Query {
+        getUsers: [User!]!
+        getUserByZip(zip:Int!): User
+        getPhotos: [Photo!]!
+    }
+    type Mutation {
+        addUser(user: userInput!): Boolean!
+    }
+    type Subscription {
+        onUserAdded:User!
+    }
+    type User {
+        name:String!
+        email:String!
+        zip:Int!
+        postedPhotos:[Photo!]!
+    }
+    input userInput {
+        name:String!
+        email:String!
+        zip:Int!
+    }
+    type Photo{
+        size:Int
+        description:String
+        url:String!
+        postedBy:User!
+    }
+
