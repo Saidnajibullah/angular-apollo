@@ -3,8 +3,15 @@
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.1.0.
 
 ## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+After pulling the the main branch, execute the following commands to run both Angular and GraphQL server applications:
+1- cd apollo-server
+2- npm install
+3- npm start
+4- open up a new terminal 
+5- go back to root directory (angular-graphql)
+6- npm install
+7- ng serve
+8- navigate to http://localhost:4200/
 
 ## Code scaffolding
 
