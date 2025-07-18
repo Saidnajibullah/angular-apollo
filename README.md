@@ -4,7 +4,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Development server
 After pulling the the main branch, execute the following commands to run both Angular and GraphQL server applications:
-1- cd apollo-server
+\n1- cd apollo-server
 2- npm install
 3- npm start
 4- open up a new terminal 
